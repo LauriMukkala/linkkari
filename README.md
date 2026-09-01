@@ -39,7 +39,9 @@ Esitys: [git-lint-skillit](../esitykset/git-lint-skillit/index.html)
 python3 tarkistus.py postaukset/2608-kampanja.md
 ```
 
-Lintteri raportoi kielletyt sanat rivinumeroineen. Se ei korjaa tekstiä —
+Lintteri raportoi kielletyt sanat rivinumeroineen. Osuma etsitään sanan
+alusta, joten taivutusmuodot löytyvät. Jos sanan vartalo muuttuu taivutuksessa,
+merkitse katkaisukohta tähdellä: `saumatto*` löytää myös "saumattoman". Se ei korjaa tekstiä —
 korjaukset tehdään käsin ja git diff näyttää muutokset.
 
 ## Claude Code
