@@ -4,6 +4,8 @@ saumatto*          ei käytetä
 ratkaisu           enintään 3 kertaa kuussa
 markkinajohtaja    vaatii lähteen ja vuosiluvun
 takuu              Saku kielsi 8/2026, käytä "tavoite"
+AI-agentti         ei käytetä
+pöhinä             ei käytetä
 
 # Korvaa
 loppukäyttäjä  ->  asiakas
