@@ -11,10 +11,27 @@ Esitys: [git-lint-skillit](../esitykset/git-lint-skillit/index.html)
 |---|---|
 | `CLAUDE.md` | Pysyvät ohjeet Claude Codelle |
 | `saannot.md` | Kielletyt sanat, korvaukset ja rajat |
+| `aani.md` | Qalmarin sävy LinkedIn-postauksissa |
+| `ohjeet/uusi-postaus.md` | Ohje uuden postauksen tekemiseen |
 | `tarkistus.py` | Lintteri, lukee säännöt tiedostosta |
 | `postaukset/` | Luonnokset, yksi tiedosto per postaus |
 | `out/` | Hyväksytyt leipätekstit ja kommentit |
-| `.claude/skills/` | Claude Coden skillit tarkistukseen |
+| `.claude/skills/` | Claude Coden skillit |
+
+## Skillit
+
+| Skill | Milloin |
+|---|---|
+| `linkedin-luonnos` | Uusi postaus → `postaukset/DDMM-aihe.md` |
+| `linkedin-tarkistus` | Tarkista olemassa oleva luonnos |
+| `julkaisuvalmius` | Tarkista valmis teksti ennen julkaisua |
+
+## Uusi postaus
+
+1. Lue [ohjeet/uusi-postaus.md](ohjeet/uusi-postaus.md)
+2. Claude Code: `tee uusi postaus aiheesta X, päivä DDMM`
+3. Lintteri ajetaan automaattisesti skillin jälkeen
+4. Ihminen muokkaa → git diff → hyväksyntä → `out/`
 
 ## Lintteri
 
@@ -32,12 +49,10 @@ Avaa projekti Claude Codessa. Se lukee `CLAUDE.md`:n automaattisesti.
 Esimerkkejä:
 
 ```
+tee uusi postaus aiheesta dev-työkalut markkinoinnissa, päivä 0109
 tarkista postaukset/2608-kampanja.md
+tarkista out/2608-kampanja.txt
 ```
-
-Skill `linkedin-tarkistus` palauttaa kentät KOUKKU, POIKKEAMAT, MITAT,
-TOISTO ja KYSYMYS. Skill `julkaisuvalmius` tarkistaa valmiin tekstin
-`out/`-kansiosta ennen julkaisua.
 
 ## Git
 

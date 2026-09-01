@@ -5,8 +5,10 @@ Qalmarin LinkedIn-postaukset. Yksi tiedosto per postaus,
 tiedoston nimi on julkaisupäivä.
 
 ## Lue aina ensin
-saannot.md    kielletyt sanat ja rajat
-postaukset/   kolme viimeistä, sävy ja toistuvat sanat
+saannot.md              kielletyt sanat ja rajat
+aani.md                 Qalmarin sävy LinkedInissä
+postaukset/             kolme viimeistä, sävy ja toistuvat sanat
+ohjeet/uusi-postaus.md  kun kirjoitat uuden luonnoksen
 
 ## Työjärjestys
 1. Raportoi ensin. Muuta vasta kun pyydän.
@@ -19,9 +21,10 @@ postaukset/   kolme viimeistä, sävy ja toistuvat sanat
 - verrata tekstiä tiedostoon saannot.md
 - korjata kirjoitusvirheet ja tuotenimet
 - kysyä
+- skillillä linkedin-luonnos: kirjoittaa uuden luonnoksen postaukset/-kansioon
 
 ## Et saa
-- kirjoittaa postausta, koukkua tai korvaavaa lausetta
+- kirjoittaa postausta, koukkua tai korvaavaa lausetta ilman skilliä linkedin-luonnos
 - keksiä lukuja, asiakastarinoita tai lupauksia
 - muuttaa jo hyväksyttyä postausta
-- julkaista mitään
+- kirjoittaa out/-kansioon tai julkaista mitään
