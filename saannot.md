@@ -3,6 +3,7 @@ innovatiivinen     vaatii luvun tai asiakastarinan
 saumaton           ei käytetä
 ratkaisu           enintään 3 kertaa kuussa
 markkinajohtaja    vaatii lähteen ja vuosiluvun
+takuu              juristi kielsi 8/2026, käytä "tavoite"
 
 # Korvaa
 loppukäyttäjä  ->  asiakas
